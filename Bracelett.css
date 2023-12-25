@@ -1,0 +1,58 @@
+body{
+    background-image: linear-gradient(to left, #e2d2d2,white);
+}
+.Bracelet-product{
+    justify-content: center;
+    align-items: center;
+}
+.Bracelet{
+ 
+    margin: 0 auto;
+    padding: 3rem 2rem ;
+
+}
+.Bracelet .title{
+    text-align: center;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    
+}
+.Bracelet .Bracelet-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px, 1fr));
+    gap:1rem;
+
+}
+.Bracelet .Bracelet-container .Bracelet1{
+    width: 100%;
+    height: 200px;
+}
+.Bracelet .Bracelet-container .Bracelet1 img{
+    width: 100%;
+    height: 100%;
+}
+.texte{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px ;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #bb9191;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .round {
+    border-radius: 50%;
+  }

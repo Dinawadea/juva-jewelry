@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+        <title> Juva Jewelry </title>
+        <link rel="stylesheet" type="text/css" href="juva.css">
+ </head>
+ <body>
+   <div>
+        <div class="container">
+  
+            <header class="nav"> 
+                 <a href="juva.html" class="logo"> <img src="img/Picture3.png"  width="8%" 
+                    height="8%"> </a>
+                 <ul class="ul">
+                    <li> <a href="#" > Home </a> </li>
+                    <li> <a href="form.html" > Sign Up </a> </li>
+                    <li> <a href="form2.html" > Log In </a> </li>
+                 </ul>
+                 
+            </header>
+         </div>
+    </div>  
+       <div class="logo-image-content">
+           
+            <img src="img/center4.png" class="center"
+                alt="juva logo"/>              
+        </div> 
+     
+     <div class="category">
+        <h5 class="category-title">
+            Choose from the finest cut of precious gemstones and 
+            unveil your beauty with our stylish jewelry
+        </h5> 
+         <div class="cat"> 
+            <a href="Necklace.html">
+                <div class="catimg">
+                    <img src="img/category3.png" 
+                    alt="Diamond Necklace">
+                </div>
+                <div class="catcotent">
+                    <h4 class="title">Diamond Necklace</h4>
+                </div>
+              </a> 
+            
+           <a href="bracelet.html">
+            <div class="catimg">
+                <img src="img/category2.png"
+                 alt="Diamond Bracelet">
+            </div>
+            <div class="catcontent">
+                <h4 class="title">Diamond Bracelet</h4>
+            </div>
+           </a>
+           <a href="Ring.html">
+            <div class="catimg">
+                <img src="img/category4.png"
+                 alt="Diamond Ring">
+            </div>
+            <div class="catcotent">
+                <h4 class="title">Diamond Ring</h4>
+            </div>
+          </a>
+               <a href="earring.html">
+                <div class="catimg">
+                    <img src="img/category1.png"
+                     alt="Diamond Earring">
+                </div>   
+                <div class="catcontent">
+                    <h4 class="title">Diamond Earring</h4>
+                </div>
+            </a> 
+         
+         </div> 
+            <div class="decore">
+                <h2 class=" d-title"> Summer Collection photoshoot</h2>
+                <video src="video.mp4" controls type="video/mp4" class="video-container" ></video>
+            
+            </div>
+     <div class="con">
+        <h3 class="title">ABOUT THE BAST SELLER  </h3>
+        <div class="product-container" width="100%">
+            <div class="product">
+                <div class="image">
+                    <img src="img/product1.jpg"/>
+                </div>
+               <div class="text">
+                <h3>Flowery</h3>
+                <div class="price">$20.00</div>
+               </div> 
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/product2.jpg" />
+                </div>
+                <div class="text">
+                    <h3>Butterfly</h3>
+                <div class="price">$15.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/product3.jpg"/>
+                </div>
+                <div class="text">
+                    <h3>Smooth</h3>
+                <div class="price"> $15.00</div>
+                </div>
+                
+            </div>
+            
+            <div class="product">
+                <div class="image">
+                    <img src="img/product4.jpg"/>
+                </div>
+              <div class="text">
+                <h3>Wings</h3>
+                <div class="price">$20.00</div>
+              </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/product5.jpg"/>
+                </div>
+               <div class="text">
+                <h3>Royal</h3>
+                <div class="price">$25.00</div>
+               </div>
+              
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/product6.jpg"/>
+                </div>
+                <div class="text">
+                    <h3>Lily</h3>
+                    <div class="price">$20.00</div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/product7.jpg"/>
+                </div>
+                <div class="text">
+                    <h3>Madly</h3>
+                    <div class="price">$25.00</div>
+                </div>
+            </div>
+    
+         </div>
+     </div>
+     <div class="slideshow-container">
+
+                <div class="mySlides">
+                  <q>Wearing jewelry will not transform your life.
+                    but it may just make your day go from ordinary to extraordinary.
+                  </q>
+                  <p class="slogan">Make it memorable and special </p>
+                </div>
+                
+                <div class="mySlides">
+                  <q>All you need a smile but a fabulous piece of jewelry helps. </q>
+                  <p class="slogan">Make it memorable and special </p>
+                </div>
+                
+                <div class="mySlides">
+                  <q>Jewelry means nothing until you wear them.</q>
+                  <p class="slogan">Make it memorable and special </p>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                
+                <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                 
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (var i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (var i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+
+     </div>
+            <div class="end">
+               <div class="ad">
+               <div class="heading">
+                <h1 class="us">About US</h1>
+                <P>“Jewellery is like the perfect spice – it always complements what’s already there.”</P>
+            </div>
+                <div class="contect-container">
+                        <div class="about-content">
+                            <h3>Life is not perfect but your jewelry can be </h3>
+                            <p>
+                                Because jewelry is an expression of self, and how you show up in the world should have no limits. <br>
+                                 That’s why we work with trusted suppliers across the globe, using high-quality, 
+                                responsibly-sourced materials to create pieces meant to last a lifetime hat feel like you<br>
+                            </p>
+                        </div>
+                </div> 
+            </div> <br/>
+            <div class="end2">
+                 <div class="info">
+                    <ul class="ulinfo">
+                        <li> <a href=""> <p> <b>Information</b></p></a> </li> 
+                       <li> <a href="juva.html" > About Us </a> </li>
+                       <li> <a href="form.html" > Follow US </a> </li>
+                       <li> <a href="form2.html" > History </a> </li>
+                    </ul>
+                </div>
+                
+                <div class="contact">
+                    <ul class="contact">
+                        <li>
+                            <ul class="social-icon" >
+                                <div class="smi"><li> <a href="juva.html" > <img src="img/whats.png" width="60px"/>  </a> </li></div>
+                                <div class="smi"><li> <a href="juva.html" > <img src="img/face.png" width="60px "class="smi"/>   </a> </li></div>
+                                <div class="smi"><li> <a href="juva.html" > <img src="img/insta.png" width="60px" class="smi"/> </a> </li></div>
+                            
+                            </ul>
+                        </li> <br/>  
+                        <li class="em"> <a href="form2.html" > Email: juvajewelry@gmail.com </a> </li>
+                     </ul>
+                </div>
+                
+                <div class="help">
+                    <ul class="ulinfo">
+                       <li> <a href=""><p> <b>Help</b></p></a> </li>
+                       <li> <a href="form2.html" > My Account </a> </li>
+                       <li> <a href="juva.html" > Contact US </a> </li>
+                       <li> <a href="juva.html" > FAQs </a> </li>
+                    </ul>
+                </div>
+  
+            </div> 
+            
+            </div>
+            
+     </div>
+     
+
+
+ </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
